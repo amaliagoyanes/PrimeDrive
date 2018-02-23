@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "rgba(254,254,254,0.4)",
+        "borderTopWidth": 1,
+        "marginLeft": 15,
+        "marginRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginBottom": 7,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      TOTAL
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      1200,00
+       DKK
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly discount 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "rgba(254,254,254,0.4)",
+        "borderTopWidth": 1,
+        "marginLeft": 15,
+        "marginRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        },
+        Object {
+          "marginBottom": 10,
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      DISCOUNT
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      -
+      20
+      % / -
+      240,00
+      DKK
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginBottom": 7,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      TOTAL
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 16,
+          },
+        ]
+      }
+    >
+      960,00
+       DKK
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly small 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "rgba(254,254,254,0.4)",
+        "borderTopWidth": 1,
+        "marginLeft": 15,
+        "marginRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginBottom": 7,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      TOTAL
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      1200,00
+       DKK
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly small, discount 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "rgba(254,254,254,0.4)",
+        "borderTopWidth": 1,
+        "marginLeft": 15,
+        "marginRight": 30,
+        "paddingTop": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        },
+        Object {
+          "marginBottom": 5,
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontSize": 10,
+          },
+        ]
+      }
+    >
+      DISCOUNT
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontSize": 10,
+          },
+        ]
+      }
+    >
+      -
+      20
+      % / -
+      240,00
+      DKK
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginBottom": 7,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "width": "30%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      TOTAL
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "textAlign": "right",
+            "width": "70%",
+          },
+          Object {
+            "fontFamily": "Gotham-Bold",
+            "fontSize": 12,
+          },
+        ]
+      }
+    >
+      960,00
+       DKK
+    </Text>
+  </View>
+</View>
+`;

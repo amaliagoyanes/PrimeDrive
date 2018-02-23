@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#dbddde",
+        "overflow": "hidden",
+      },
+      undefined,
+      Array [
+        Object {
+          "backgroundColor": "#53535a",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Array [
+        Object {},
+        Object {
+          "left": 0,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "height": 35,
+          "marginLeft": 15,
+          "marginRight": 30,
+          "opacity": 1,
+          "padding": 5,
+          "paddingTop": 8,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "width": "55%",
+                },
+              ]
+            }
+          >
+            TEST
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "textAlign": "right",
+                  "width": "15%",
+                },
+              ]
+            }
+          >
+            1
+             x
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "textAlign": "right",
+                  "width": "30%",
+                },
+              ]
+            }
+          >
+            5,00
+             DKK
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View />
+  <View />
+</View>
+`;
+
+exports[`renders correctly with discount 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#dbddde",
+        "overflow": "hidden",
+      },
+      undefined,
+      Array [
+        Object {
+          "backgroundColor": "#53535a",
+        },
+      ],
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    style={
+      Array [
+        Object {},
+        Object {
+          "left": 0,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "nowrap",
+          "height": 35,
+          "marginLeft": 15,
+          "marginRight": 30,
+          "opacity": 1,
+          "padding": 5,
+          "paddingTop": 8,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "column",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "width": "55%",
+                },
+              ]
+            }
+          >
+            TEST
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "textAlign": "right",
+                  "width": "15%",
+                },
+              ]
+            }
+          >
+            1
+             x
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 12,
+                  "textAlign": "right",
+                  "width": "30%",
+                },
+              ]
+            }
+          >
+            5,00
+             DKK
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 10,
+                  "width": "70%",
+                },
+              ]
+            }
+          >
+            Discount
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#fff",
+                  "fontFamily": "Gotham-Book",
+                  "fontSize": 14,
+                },
+                Object {
+                  "fontSize": 10,
+                  "textAlign": "right",
+                  "width": "30%",
+                },
+              ]
+            }
+          >
+            -
+            1,00
+             DKK
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View />
+  <View />
+</View>
+`;

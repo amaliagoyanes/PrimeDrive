@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RowNB
+  size={20}
+>
+  <ColumnNB>
+    <RowNB
+      style={
+        Object {
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <ButtonItem
+        active="active"
+        onPress={[Function]}
+        text="Floor 1"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+      <ButtonItem
+        active=""
+        onPress={[Function]}
+        text="Floor 2"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+      <ButtonItem
+        active=""
+        onPress={[Function]}
+        text="Floor 3"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+    </RowNB>
+    <RowNB
+      size={18}
+      style={
+        Object {
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+    >
+      <ColumnNB
+        style={
+          Object {
+            "paddingBottom": 40,
+            "paddingTop": 30,
+          }
+        }
+      >
+        <RowNB>
+          <TableItem
+            num="1"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#6f7076",
+              }
+            }
+          />
+          <TableItem
+            num="2nd"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#ffbb39",
+              }
+            }
+          />
+          <TableItem
+            num="3"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#189bb5",
+              }
+            }
+          />
+          <TableItem
+            num={4}
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#6f7076",
+              }
+            }
+          />
+        </RowNB>
+      </ColumnNB>
+    </RowNB>
+  </ColumnNB>
+</RowNB>
+`;
+
+exports[`renders correctly with type buttons 1`] = `
+<RowNB
+  size={20}
+>
+  <ColumnNB>
+    <RowNB
+      style={
+        Object {
+          "paddingLeft": 10,
+        }
+      }
+    >
+      <ButtonItem
+        active="active"
+        onPress={[Function]}
+        text="Floor 1"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+      <ButtonItem
+        active=""
+        onPress={[Function]}
+        text="Floor 2"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+      <ButtonItem
+        active=""
+        onPress={[Function]}
+        text="Floor 3"
+        textStyle={
+          Object {
+            "fontSize": 8,
+          }
+        }
+      />
+    </RowNB>
+    <RowNB
+      size={18}
+      style={
+        Object {
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+    >
+      <ColumnNB
+        style={
+          Object {
+            "paddingBottom": 40,
+            "paddingTop": 30,
+          }
+        }
+      >
+        <RowNB>
+          <TableItem
+            num="1"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#6f7076",
+              }
+            }
+          />
+          <TableItem
+            num="2nd"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#ffbb39",
+              }
+            }
+          />
+          <TableItem
+            num="3"
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#189bb5",
+              }
+            }
+          />
+          <TableItem
+            num={4}
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#6f7076",
+              }
+            }
+          />
+        </RowNB>
+      </ColumnNB>
+    </RowNB>
+    <RowNB
+      style={
+        Object {
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+    >
+      <ButtonItem
+        detailsText="12"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#6f7076",
+            },
+          ]
+        }
+        text="Free"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="1"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#f52446",
+            },
+          ]
+        }
+        text="Seated"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="1"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#00d57d",
+            },
+          ]
+        }
+        text="Ordered"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="2"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#ffbb39",
+            },
+          ]
+        }
+        text="Starter"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="3"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#5083ff",
+            },
+          ]
+        }
+        text="Main"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="1"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#ff59a3",
+            },
+          ]
+        }
+        text="Dessert"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+      <ButtonItem
+        detailsText="1"
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            },
+            Object {
+              "backgroundColor": "#189bb5",
+            },
+          ]
+        }
+        text="Check down"
+        textStyle={
+          Object {
+            "fontSize": 8,
+            "textAlign": "left",
+            "width": "50%",
+          }
+        }
+      />
+    </RowNB>
+  </ColumnNB>
+</RowNB>
+`;

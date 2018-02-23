@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- StarMicronic mPOP -->
+    <usb-device class="255" subclass="66" protocol="1" />
+    <usb-device vendor-id="1305" product-id="0023" />
+
+    <!-- 0x04b8 / 0x0202 Epson -->
+    <usb-device vendor-id="1208" />
+    <usb-device vendor-id="1208" product-id="514" />
+    <usb-device vendor-id="1208" product-id="3605" />
+
+    <!-- Citizen TZ30-M01 -->
+    <usb-device vendor-id="7568" product-id="8288" />
+    <!-- AURES ODP 333 -->
+    <usb-device vendor-id="1317" product-id="42752" />
+    <!-- Bixilon SRP-350 -->
+    <usb-device vendor-id="5380" product-id="29" />
+
+    <!-- 0x072f / 0x2206 Smart Card -->
+    <usb-device vendor-id="1839" product-id="8710" />
+
+</resources>

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.incorrectCredentials",
+    "defaultMessage": "Incorrect username or password"
+  },
+  {
+    "id": "app.login",
+    "defaultMessage": "LOGIN"
+  }
+]

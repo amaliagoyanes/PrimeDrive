@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ColumnNB
+  size={4}
+  style={
+    Object {
+      "marginBottom": 20,
+      "paddingLeft": 30,
+      "paddingRight": 25,
+    }
+  }
+>
+  <RowNB
+    size={1}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ColumnNB />
+  </RowNB>
+  <NumericKeyboard
+    cleanInput={[Function]}
+    input=""
+    numOnPress={[Function]}
+    size={6}
+  />
+  <RowNB
+    size={1}
+  >
+    <ButtonItem
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "marginLeft": 0,
+            "marginRight": 40,
+          },
+          Object {
+            "backgroundColor": "#3cb671",
+            "marginRight": 0,
+          },
+        ]
+      }
+      text="Login"
+      textStyle={
+        Object {
+          "color": "#fefefe",
+          "fontSize": 16,
+        }
+      }
+    />
+  </RowNB>
+  <RowNB
+    size={1}
+  >
+    <ButtonItem
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "marginLeft": 0,
+            "marginRight": 40,
+          },
+          Object {
+            "backgroundColor": "#bec3c7",
+            "marginRight": 0,
+          },
+        ]
+      }
+      text="Switch Off"
+      textStyle={
+        Object {
+          "color": "#fefefe",
+          "fontSize": 16,
+        }
+      }
+    />
+  </RowNB>
+</ColumnNB>
+`;

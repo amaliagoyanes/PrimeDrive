@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.noParkedReceipts",
+    "defaultMessage": "No parked receipts in current cash shift"
+  },
+  {
+    "id": "app.noClosedReceipts",
+    "defaultMessage": "No closed receipts in current cash shift"
+  }
+]

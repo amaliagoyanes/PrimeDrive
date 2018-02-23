@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalCloseButton renders correctly 1`] = `
+<View
+  size={1}
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    size={23}
+    style={
+      Object {
+        "flex": 23,
+        "flexDirection": "column",
+      }
+    }
+  />
+  <View
+    size={1}
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "height": 24,
+          "justifyContent": "center",
+          "marginLeft": 20,
+          "marginTop": 0,
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#313138",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ModalHeader renders correctly 1`] = `
+<RowNB
+  size={1}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomWidth": 0.2,
+      "borderColor": "#404048",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ColumnNB
+    size={1}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "color": "#313138",
+            "fontSize": 12,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      11:11:11
+    </Text>
+  </ColumnNB>
+  <ColumnNB
+    size={1}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "color": "#313138",
+            "fontSize": 14,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      TEST MODAL
+    </Text>
+  </ColumnNB>
+  <ColumnNB
+    size={1}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "color": "#313138",
+            "fontSize": 12,
+            "textAlign": "right",
+          },
+        ]
+      }
+    >
+      01.01.2017
+    </Text>
+  </ColumnNB>
+</RowNB>
+`;

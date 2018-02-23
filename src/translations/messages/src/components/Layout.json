@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.networkError",
+    "defaultMessage": "Error occurred during loading data from server. Please check your network connection or try again later."
+  },
+  {
+    "id": "app.noShiftWarning",
+    "defaultMessage": "Please open the day first"
+  }
+]

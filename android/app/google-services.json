@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "274709656739",
+    "firebase_url": "https://bware-b3753.firebaseio.com",
+    "project_id": "bware-b3753",
+    "storage_bucket": "bware-b3753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274709656739:android:a98c758e2ddb661d",
+        "android_client_info": {
+          "package_name": "com.primedrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274709656739-2b2ndr8rn459k4hn2e9q53qv79to11ee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCls3AKctqlQvNLL6YjROkQ68gAMQoIE_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

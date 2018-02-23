@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RowNB
+  size={2}
+>
+  <ColumnNB>
+    <RowNB
+      size={5}
+    >
+      <NumericKeyboard
+        cleanInput={[Function]}
+        input=""
+        inputBackgroundColor="#6f7076"
+        numOnPress={[Function]}
+        postfix="%"
+        showDelimeter={true}
+        size={6}
+        smallBlock={true}
+      />
+    </RowNB>
+  </ColumnNB>
+</RowNB>
+`;
+
+exports[`renders correctly active and isDiscount 1`] = `
+<RowNB
+  size={9}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#6f7076",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 10,
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <TextInput
+      multiline={true}
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 11,
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+</RowNB>
+`;
+
+exports[`renders correctly and isDiscount 1`] = `
+<RowNB
+  size={9}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#6f7076",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 10,
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <TextInput
+      multiline={true}
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 11,
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+</RowNB>
+`;
+
+exports[`renders correctly readOnly 1`] = `
+<RowNB
+  size={2}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#6f7076",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 10,
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <TextInput
+      multiline={true}
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 11,
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+</RowNB>
+`;
+
+exports[`renders correctly readOnly and isDiscount 1`] = `
+<RowNB
+  size={9}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#6f7076",
+          "flex": 1,
+          "justifyContent": "center",
+          "paddingRight": 10,
+        },
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <TextInput
+      multiline={true}
+      onChangeText={[Function]}
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "fontSize": 11,
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+</RowNB>
+`;

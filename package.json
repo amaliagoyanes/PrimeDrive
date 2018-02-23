@@ -1,0 +1,91 @@
+{
+  "name": "PrimeDrive",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "manage:translations": "node ./translationRunner.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "enzyme": "2.8.2",
+    "intl": "^1.2.5",
+    "jest-serializer-enzyme": "1.0.0",
+    "moment": "^2.18.1",
+    "process": "^0.11.0",
+    "react": "16.0.0-alpha.6",
+    "react-addons-test-utils": "15.5.1",
+    "react-dom": "15.5.4",
+    "react-intl": "^2.3.0",
+    "react-intl-redux": "^0.5.0",
+    "react-native": "0.44.3",
+    "react-native-code-push": "^3.0.1-beta",
+    "react-native-device-info": "^0.9.9",
+    "react-native-double-click": "^1.0.3",
+    "react-native-easy-grid": "0.1.8",
+    "react-native-exception-handler": "^2.3.0",
+    "react-native-fetch-blob": "0.10.5",
+    "react-native-firebase": "1.1.2",
+    "react-native-firestack": "2.3.9",
+    "react-native-image-picker": "0.26.3",
+    "react-native-immersive": "0.0.5",
+    "react-native-progress": "^3.2.1",
+    "react-native-root-modal": "^1.1.1",
+    "react-native-router-flux": "3.40.0",
+    "react-native-select-multiple": "1.0.4",
+    "react-native-sentry": "^0.14.5",
+    "react-native-swipe-a-lot": "^0.2.1",
+    "react-native-swipeout": "2.0.13",
+    "react-native-tcp": "^3.3.0",
+    "react-native-textinput-effects": "^0.3.1",
+    "react-native-vector-icons": "^4.0.1",
+    "react-navigation": "^1.0.0-beta.9",
+    "react-redux": "^5.0.4",
+    "readable-stream": "^1.0.33",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "sentry-cli-binary": "^1.16.0",
+    "soap-everywhere": "^1.0.7",
+    "stream-browserify": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "19.0.0",
+    "babel-plugin-react-intl": "^2.3.1",
+    "babel-preset-react-native": "2.1.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "19.0.2",
+    "react-intl-translations-manager": "^5.0.0",
+    "react-test-renderer": "^16.0.0-alpha.6",
+    "rn-nodeify": "^8.2.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "./node_modules/jest-serializer-enzyme"
+    ]
+  },
+  "postinstall": "rm -f node_modules/intl/.babelrc",
+  "rnpm": {
+    "assets": [
+      "./src/fonts"
+    ]
+  },
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
+}

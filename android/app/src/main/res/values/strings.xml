@@ -1,0 +1,4 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">m3nhYUtR0ZL5UloMrqCIk-VhiT0L8c49f7ed-d106-4686-b92d-a5d8690786e0</string>
+    <string name="app_name">PrimeDrive</string>
+</resources>

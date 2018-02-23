@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RowNB
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="minus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      -
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        }
+      }
+    >
+      1
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="plus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      +
+    </Text>
+  </TouchableOpacity>
+</RowNB>
+`;
+
+exports[`renders correctly with amount 1`] = `
+<RowNB
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="minus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      -
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="plus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      +
+    </Text>
+  </TouchableOpacity>
+</RowNB>
+`;
+
+exports[`value cannot be < 0 1`] = `
+<RowNB
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="minus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      -
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        }
+      }
+    >
+      1
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="plus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      +
+    </Text>
+  </TouchableOpacity>
+</RowNB>
+`;
+
+exports[`value cannot be > maxAmount 1`] = `
+<RowNB
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="minus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      -
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        }
+      }
+    >
+      2
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    name="plus"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#404048",
+          "justifyContent": "center",
+          "width": "34%",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      +
+    </Text>
+  </TouchableOpacity>
+</RowNB>
+`;

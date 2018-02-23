@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "borderColor": "#afafaf",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "marginTop": 5,
+        "paddingTop": 5,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          disc10
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "textAlign": "right",
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          120,00
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          At betale
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "textAlign": "right",
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          1200,00
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly with card 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "borderColor": "#afafaf",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "marginTop": 5,
+        "paddingTop": 5,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          disc10
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "textAlign": "right",
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          120,00
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          At betale
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 9,
+                "textAlign": "right",
+                "width": "50%",
+              },
+            ]
+          }
+        >
+          1200,00
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "marginBottom": 7,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "marginBottom": 7,
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              },
+              Object {
+                "color": "#afafaf",
+                "fontSize": 6,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          40003000****1000
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

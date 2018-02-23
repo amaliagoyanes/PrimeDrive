@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<GridNB
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3f3f48",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <RowNB
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "height": 35,
+      }
+    }
+  >
+    <ColumnNB
+      size={0.075}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 35,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="white"
+        name="logo"
+        size={25}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            },
+            Object {
+              "top": 5,
+            },
+          ]
+        }
+      />
+    </ColumnNB>
+    <ColumnNB
+      size={0.175}
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "height": 35,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          }
+        }
+      >
+        PrimeDrive
+      </Text>
+    </ColumnNB>
+    <ColumnNB
+      size={0.5}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 35,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#fff",
+              "fontFamily": "Gotham-Book",
+              "fontSize": 14,
+            },
+            Object {
+              "fontSize": 10,
+            },
+          ]
+        }
+      >
+        KL. 
+        11:11:11 - 01.01.2017
+      </Text>
+    </ColumnNB>
+    <ColumnNB
+      size={0.25}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "height": 35,
+          "justifyContent": "center",
+          "marginRight": 10,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          }
+        }
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    name="navbar"
+    style={
+      Object {
+        "height": 30,
+      }
+    }
+  >
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="menu"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={80}
+    />
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="home"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="person"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="search"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <Connect(Layout)
+    cash_shift_id={1}
+    openModal={[Function]}
+    uid={1}
+  />
+  <SideMenu
+    openModal={[Function]}
+  />
+  <StatusSync
+    forceSync={[Function]}
+  />
+  <OpenDay
+    updateCashShift={[Function]}
+  />
+  <CloseDay
+    updateCashShift={[Function]}
+  />
+  <CheckInOut />
+  <SubProducts />
+  <UserLogin
+    openShift={[Function]}
+  />
+</GridNB>
+`;

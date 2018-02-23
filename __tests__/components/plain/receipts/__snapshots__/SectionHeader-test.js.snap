@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "rgba(254,254,254,0.4)",
+      "flexDirection": "row",
+      "flexWrap": "nowrap",
+      "marginBottom": 10,
+      "marginLeft": 15,
+      "marginRight": 30,
+      "paddingBottom": 5,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 12,
+          "width": "55%",
+        },
+      ]
+    }
+  >
+    PRODUCT
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 12,
+          "textAlign": "right",
+          "width": "15%",
+        },
+      ]
+    }
+  >
+    UNITS
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#fff",
+          "fontFamily": "Gotham-Book",
+          "fontSize": 14,
+        },
+        Object {
+          "fontSize": 12,
+          "textAlign": "right",
+          "width": "30%",
+        },
+      ]
+    }
+  >
+    TOTAL PRICE
+  </Text>
+</View>
+`;

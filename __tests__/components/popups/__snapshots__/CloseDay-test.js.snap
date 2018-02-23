@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="CLOSE THE DAY"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 20,
+              "marginTop": 30,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              detailsText="0,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              detailsText="0,00 DKK"
+              modalActive={true}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              detailsText="0,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              detailsText="0,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#bec3c7",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Giftcard"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    0,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 20,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              disabled={true}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "fontSize": 18,
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <CashButton
+            activate={[Function]}
+            refId="_cash0"
+            text="50 øre"
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash1"
+            text="1 kr."
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash2"
+            text="2 kr."
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash3"
+            text="5 kr."
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash4"
+            text="10 kr."
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash5"
+            text="20 kr."
+          />
+          <CashButton
+            activate={[Function]}
+            refId="_cash6"
+            text="50 kr."
+          />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 20,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            showDelimeter={true}
+            size={78}
+          />
+          <RowNB
+            size={11}
+          />
+          <RowNB
+            size={11}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#3cb671",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="CLOSE THE DAY"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;

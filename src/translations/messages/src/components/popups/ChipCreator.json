@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.tag_uid",
+    "defaultMessage": "Tag UID"
+  },
+  {
+    "id": "app.type",
+    "defaultMessage": "Type"
+  }
+]

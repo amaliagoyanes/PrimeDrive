@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={false}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#3f3f48",
+          "height": undefined,
+          "left": undefined,
+          "position": "absolute",
+          "top": undefined,
+          "transform": Array [
+            Object {
+              "rotate": "45deg",
+            },
+          ],
+          "width": undefined,
+        }
+      }
+    />
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#383840",
+          "height": 1000.5,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": 168.75,
+        }
+      }
+    >
+      <RowNB
+        size={8.5}
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "#ffffff",
+            "justifyContent": "flex-end",
+            "marginBottom": 10,
+            "marginLeft": 5,
+            "marginRight": 5,
+            "marginTop": 10,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <ColumnNB>
+          <RowNB
+            size={15}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#f4f4f4",
+                "justifyContent": "center",
+                "paddingBottom": 10,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 48,
+                  "width": 91,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            name="credentials"
+            size={5}
+            style={
+              Object {
+                "borderBottomWidth": 1,
+                "borderColor": "#afafaf",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <ColumnNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  01.01.2017
+                </Text>
+              </RowNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  03:00:00
+                </Text>
+              </RowNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  1
+                </Text>
+              </RowNB>
+            </ColumnNB>
+            <ColumnNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  SYNERGIVEJ 5
+                </Text>
+              </RowNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  9000 Aalborg
+                </Text>
+              </RowNB>
+              <RowNB>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#fff",
+                        "fontFamily": "Gotham-Book",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#afafaf",
+                        "fontSize": 7,
+                      },
+                    ]
+                  }
+                >
+                  MOMS NR: 35 95 47 16
+                </Text>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+          <RowNB
+            size={65}
+            style={
+              Object {
+                "paddingBottom": 10,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <ListViewMock
+              dataSource={
+                ListViewDataSource {
+                  "items": 1,
+                }
+              }
+              enableEmptySections={true}
+              renderFooter={[Function]}
+              renderRow={[Function]}
+              renderScrollComponent={[Function]}
+            />
+          </RowNB>
+          <RowNB
+            size={10}
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+                "paddingBottom": 20,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 48,
+                  "width": 91,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+      <RowNB
+        size={1.5}
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <IconButton
+          active={false}
+          icon="redo-variant"
+          onPress={[Function]}
+          price="Return"
+        />
+        <IconButton
+          icon="printer"
+          onPress={[Function]}
+          price="Print"
+        />
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+  <SelectRefundUnits
+    onOk={[Function]}
+  />
+</Modal>
+`;

@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<GridNB
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3f3f48",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+    }
+  }
+>
+  <RowNB
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "height": 40,
+      }
+    }
+  >
+    <ColumnNB
+      size={0.05}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="white"
+        name="logo"
+        size={28}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            },
+            Object {
+              "top": 6,
+            },
+          ]
+        }
+      />
+    </ColumnNB>
+    <ColumnNB
+      size={0.95}
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          }
+        }
+      >
+        PrimeDrive
+      </Text>
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    name="navbar"
+    style={
+      Object {
+        "height": 32,
+      }
+    }
+  >
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="menu"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={80}
+    />
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="home"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="person"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+    <ColumnNB
+      size={5}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="search"
+          size={18}
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            }
+          }
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <TablesLayout
+    onPress={[Function]}
+    showTypeButtons={true}
+  />
+  <RowNB />
+  <SideMenu
+    openModal={[Function]}
+  />
+  <OpenDay />
+  <CloseDay />
+  <CheckInOut />
+  <SubProducts />
+  <UserLogin />
+  <TableNameChange
+    onOk={[Function]}
+  />
+</GridNB>
+`;

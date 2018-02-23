@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<GridNB
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3f3f48",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingLeft": 30,
+        "paddingTop": 25,
+      },
+    ]
+  }
+>
+  <RowNB />
+  <RowNB
+    size={0.75}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="white"
+        name="logo"
+        size={72}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={0.25}
+  >
+    <ColumnNB />
+  </RowNB>
+  <RowNB
+    size={0.5}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TextInput
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Email"
+        placeholderTextColor="#cecece"
+        style={
+          Object {
+            "color": "#fff",
+            "height": 40,
+            "width": "50%",
+          }
+        }
+        underlineColorAndroid="#2dab61"
+        value=""
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={0.5}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#cecece"
+        secureTextEntry={true}
+        style={
+          Object {
+            "color": "#fff",
+            "height": 40,
+            "width": "50%",
+          }
+        }
+        underlineColorAndroid="#2dab61"
+        value=""
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB>
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#404048",
+              "justifyContent": "center",
+              "width": "34%",
+            },
+            Object {
+              "backgroundColor": "#2dab61",
+              "height": 45,
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Gotham-Book",
+              "fontSize": 14,
+            }
+          }
+        >
+          LOGIN
+        </Text>
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <RowNB />
+</GridNB>
+`;
+
+exports[`renders correctly with error 1`] = `
+<GridNB
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3f3f48",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingLeft": 30,
+        "paddingTop": 25,
+      },
+    ]
+  }
+>
+  <RowNB />
+  <RowNB
+    size={0.75}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        color="white"
+        name="logo"
+        size={72}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "marginBottom": 10,
+              "marginLeft": 10,
+              "marginRight": 5,
+            },
+            Object {
+              "top": 0,
+            },
+          ]
+        }
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={0.25}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#fff",
+            "fontFamily": "Gotham-Book",
+            "fontSize": 14,
+          },
+          Object {
+            "color": "#e84b3a",
+          },
+        ]
+      }
+    >
+      Incorrect username or password
+    </Text>
+  </RowNB>
+  <RowNB
+    size={0.5}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TextInput
+        keyboardType="email-address"
+        onChangeText={[Function]}
+        placeholder="Email"
+        placeholderTextColor="#cecece"
+        style={
+          Object {
+            "color": "#fff",
+            "height": 40,
+            "width": "50%",
+          }
+        }
+        underlineColorAndroid="#e84b3a"
+        value=""
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={0.5}
+  >
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Password"
+        placeholderTextColor="#cecece"
+        secureTextEntry={true}
+        style={
+          Object {
+            "color": "#fff",
+            "height": 40,
+            "width": "50%",
+          }
+        }
+        underlineColorAndroid="#e84b3a"
+        value=""
+      />
+    </ColumnNB>
+  </RowNB>
+  <RowNB>
+    <ColumnNB
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#404048",
+              "justifyContent": "center",
+              "width": "34%",
+            },
+            Object {
+              "backgroundColor": "#2dab61",
+              "height": 45,
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Gotham-Book",
+              "fontSize": 14,
+            }
+          }
+        >
+          LOGIN
+        </Text>
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <RowNB />
+</GridNB>
+`;

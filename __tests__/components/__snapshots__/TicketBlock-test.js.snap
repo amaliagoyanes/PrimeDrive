@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "marginBottom": 15,
+      },
+      Object {
+        "marginBottom": 0,
+      },
+    ]
+  }
+>
+  <RowNB
+    size={5}
+    style={
+      Object {
+        "marginBottom": 8,
+      }
+    }
+  >
+    <ColumnNB
+      style={
+        Object {
+          "backgroundColor": "#53535a",
+          "marginLeft": 10,
+          "marginRight": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "alignSelf": "stretch",
+            "backgroundColor": "#53535a",
+            "height": 44,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <TouchableOpacity
+          activeOpacity={0.2}
+          focusedOpacity={0.7}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3f3f48",
+              "height": 24,
+              "justifyContent": "center",
+              "width": 24,
+            }
+          }
+        >
+          <Icon
+            allowFontScaling={false}
+            color="white"
+            name="close"
+            size={14}
+          />
+        </TouchableOpacity>
+      </View>
+      <RowNB
+        size={1}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "paddingLeft": 15,
+          }
+        }
+      />
+      <RowNB
+        size={1}
+        style={
+          Object {
+            "alignSelf": "stretch",
+          }
+        }
+      />
+      <RowNB
+        size={4}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "paddingLeft": 10,
+            "paddingRight": 25,
+          }
+        }
+      >
+        <ButtonItem
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "marginTop": 7,
+              },
+              Object {
+                "backgroundColor": "#2dab61",
+              },
+            ]
+          }
+          text="Select table"
+        />
+      </RowNB>
+      <RowNB
+        size={18}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "paddingTop": 10,
+          }
+        }
+      >
+        <ColumnNB>
+          <ListViewMock
+            dataSource={
+              ListViewDataSource {
+                "items": 1,
+              }
+            }
+            enableEmptySections={true}
+            renderFooter={[Function]}
+            renderRow={[Function]}
+            renderScrollComponent={[Function]}
+            renderSectionHeader={[Function]}
+          />
+        </ColumnNB>
+      </RowNB>
+      <RowNB
+        size={4}
+      >
+        <ColumnNB
+          size={2.5}
+          style={
+            Object {
+              "backgroundColor": "#2dab61",
+              "marginRight": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <ButtonMeasures
+            onDoublePress={[Function]}
+            onLongPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "marginTop": 7,
+              }
+            }
+            text="Card"
+          />
+        </ColumnNB>
+        <ColumnNB
+          size={5.5}
+          style={
+            Object {
+              "backgroundColor": "#2dab61",
+              "marginTop": 10,
+            }
+          }
+        >
+          <ButtonItem
+            onPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "marginTop": 7,
+              }
+            }
+            text="Pay"
+          />
+        </ColumnNB>
+        <ColumnNB
+          size={2.5}
+          style={
+            Object {
+              "backgroundColor": "#2dab61",
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        >
+          <ButtonMeasures
+            onDoublePress={[Function]}
+            onLongPress={[Function]}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "marginTop": 7,
+              }
+            }
+            text="Cash"
+          />
+        </ColumnNB>
+      </RowNB>
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={1}
+    style={
+      Object {
+        "marginLeft": 2,
+        "marginRight": 2,
+      }
+    }
+  >
+    <SwipeALot
+      circleActiveStyle={
+        Object {
+          "backgroundColor": "#beb3b7",
+        }
+      }
+      circleDefaultStyle={
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#beb3b7",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "height": 8,
+          "margin": 7,
+          "marginTop": 3,
+          "top": -2,
+          "width": 8,
+        }
+      }
+    >
+      <RowNB
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "marginBottom": 15,
+            },
+            Object {
+              "marginTop": 5,
+            },
+          ]
+        }
+      >
+        <IconButton
+          onPress={[Function]}
+          price="Test func"
+        />
+        <ColumnNB />
+        <ColumnNB />
+        <ColumnNB />
+      </RowNB>
+    </SwipeALot>
+  </RowNB>
+  <ActionConfirm>
+    <RowNB
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#313138",
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        DELETE CURRENT RECEIPT?
+      </Text>
+    </RowNB>
+  </ActionConfirm>
+  <ActionConfirm
+    onOk={[Function]}
+  >
+    <RowNB
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#313138",
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        RETURN CURRENT RECEIPT?
+      </Text>
+    </RowNB>
+  </ActionConfirm>
+  <ActionConfirm>
+    <RowNB
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#313138",
+            "fontSize": 14,
+            "textAlign": "center",
+          }
+        }
+      >
+        PARK CURRENT RECEIPT?
+      </Text>
+    </RowNB>
+  </ActionConfirm>
+  <TicketLine
+    arrow="right"
+  />
+  <NumberPopup
+    arrow="right"
+    onOk={[Function]}
+    postfix="DKK"
+    readOnly={true}
+    showDelimeter={true}
+  />
+  <NumberPopup
+    arrow="right"
+    onOk={[Function]}
+    postfix="%"
+    readOnly={true}
+    showDelimeter={true}
+  />
+  <Payment
+    onOk={[Function]}
+    total="2.00"
+  />
+  <TablePicker />
+</View>
+`;

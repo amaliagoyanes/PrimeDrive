@@ -1,0 +1,1670 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="PAYMENT"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            postfix="DKK"
+            showDelimeter={true}
+            size={7}
+          />
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              disabled={true}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#93D8B1",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="OK"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#e84b3a",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cancel"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    -10,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;
+
+exports[`renders correctly with card 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="PAYMENT"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            postfix="DKK"
+            showDelimeter={true}
+            size={7}
+          />
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              disabled={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#3cb671",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="OK"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#e84b3a",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cancel"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              detailsText="10,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    0,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;
+
+exports[`renders correctly with cash 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="PAYMENT"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            postfix="DKK"
+            showDelimeter={true}
+            size={7}
+          />
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              disabled={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#3cb671",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="OK"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#e84b3a",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cancel"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              detailsText="10,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    0,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;
+
+exports[`renders correctly with currency 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="PAYMENT"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            postfix="DKK"
+            showDelimeter={true}
+            size={7}
+          />
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              disabled={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#3cb671",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="OK"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#e84b3a",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cancel"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              detailsText="10,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    0,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;
+
+exports[`renders correctly with giftCard 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(255,255,255,0.1)",
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e8eaeb",
+          "height": 1067.2,
+          "left": 75,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "paddingRight": 40,
+          "paddingTop": 20,
+          "position": "absolute",
+          "top": 133.4,
+          "width": 600,
+        }
+      }
+    >
+      <ModalCloseButton
+        close={[Function]}
+      />
+      <ModalHeader
+        modalName="PAYMENT"
+      />
+      <RowNB
+        size={18}
+      >
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#404048",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Cash"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#66666d",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Card"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB>
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#8d8d91",
+                    "marginRight": 15,
+                  },
+                ]
+              }
+              text="Euro"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB />
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "borderColor": "#404048",
+              "borderRightWidth": 0.2,
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+              "paddingRight": 15,
+            }
+          }
+        >
+          <NumericKeyboard
+            cleanInput={[Function]}
+            input=""
+            numOnPress={[Function]}
+            postfix="DKK"
+            showDelimeter={true}
+            size={7}
+          />
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              disabled={false}
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#3cb671",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="OK"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={1}
+          >
+            <ButtonItem
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "backgroundColor": "#e84b3a",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Cancel"
+              textStyle={
+                Object {
+                  "color": "#fefefe",
+                  "fontSize": 16,
+                }
+              }
+            />
+          </RowNB>
+        </ColumnNB>
+        <ColumnNB
+          style={
+            Object {
+              "marginBottom": 10,
+              "marginTop": 30,
+              "paddingLeft": 15,
+            }
+          }
+        >
+          <RowNB>
+            <ButtonItem
+              detailsText="10,00 DKK"
+              style={
+                Array [
+                  Object {
+                    "marginLeft": 0,
+                    "marginRight": 40,
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingLeft": 15,
+                    "paddingRight": 15,
+                  },
+                  Object {
+                    "backgroundColor": "#bec3c7",
+                    "marginRight": 0,
+                  },
+                ]
+              }
+              text="Giftcard"
+              textStyle={
+                Array [
+                  Object {
+                    "color": "#fefefe",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "textAlign": "left",
+                    "width": "50%",
+                  },
+                ]
+              }
+            />
+          </RowNB>
+          <RowNB
+            size={3}
+          />
+          <RowNB>
+            <ColumnNB
+              style={
+                Object {
+                  "borderBottomWidth": 0.3,
+                  "borderColor": "#727278",
+                }
+              }
+            >
+              <RowNB>
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontSize": 16,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    BALANCE
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+              <RowNB
+                style={
+                  Object {
+                    "borderBottomWidth": 1,
+                    "borderColor": "#727278",
+                    "marginBottom": 5,
+                  }
+                }
+              >
+                <ColumnNB>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#fff",
+                          "fontFamily": "Gotham-Book",
+                          "fontSize": 14,
+                        },
+                        Object {
+                          "color": "#313138",
+                          "fontFamily": "Gotham-Bold",
+                          "fontSize": 18,
+                          "textAlign": "right",
+                        },
+                      ]
+                    }
+                  >
+                    0,00
+                     DKK
+                  </Text>
+                </ColumnNB>
+              </RowNB>
+            </ColumnNB>
+          </RowNB>
+        </ColumnNB>
+      </RowNB>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;

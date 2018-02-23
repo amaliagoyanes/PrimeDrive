@@ -1,0 +1,14 @@
+[
+  {
+    "id": "app.discount",
+    "defaultMessage": "Discount"
+  },
+  {
+    "id": "app.campaign",
+    "defaultMessage": "Campaign"
+  },
+  {
+    "id": "app.price",
+    "defaultMessage": "Price"
+  }
+]

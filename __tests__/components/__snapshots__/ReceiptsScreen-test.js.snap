@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<GridNB
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3f3f48",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingLeft": 30,
+        "paddingTop": 25,
+      },
+    ]
+  }
+>
+  <RowNB
+    size={1}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "height": 40,
+      }
+    }
+  >
+    <ColumnNB
+      size={2}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 5,
+          }
+        }
+      >
+        receipts
+      </Text>
+    </ColumnNB>
+    <ColumnNB
+      size={10}
+    />
+    <ColumnNB
+      size={1}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3f3f48",
+              "height": 24,
+              "justifyContent": "center",
+              "width": 24,
+            },
+            Object {
+              "backgroundColor": "#53535a",
+              "marginTop": 0,
+            },
+          ]
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="close"
+          size={14}
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={2}
+  >
+    <ColumnNB
+      size={1}
+    >
+      <Hideo
+        animationDuration={200}
+        height={48}
+        iconBackgroundColor="#3f3f48"
+        iconClass={[Function]}
+        iconColor="white"
+        iconName="search"
+        inputStyle={
+          Object {
+            "backgroundColor": "#3f3f48",
+            "color": "white",
+          }
+        }
+        label="Search"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "height": 16,
+          }
+        }
+      />
+    </ColumnNB>
+    <ColumnNB
+      size={1}
+    />
+  </RowNB>
+  <RowNB
+    size={25}
+    style={
+      Object {
+        "paddingRight": 30,
+      }
+    }
+  >
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <withAnimation(ProgressCircle)
+          animated={true}
+          borderColor="#2dab61"
+          borderWidth={5}
+          indeterminate={true}
+          progress={0}
+          size={60}
+        />
+      </View>
+    </ColumnNB>
+  </RowNB>
+  <ReceiptModal
+    getReceipts={[Function]}
+  />
+</GridNB>
+`;
+
+exports[`renders correctly with data 1`] = `
+<GridNB
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3f3f48",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingLeft": 30,
+        "paddingTop": 25,
+      },
+    ]
+  }
+>
+  <RowNB
+    size={1}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "height": 40,
+      }
+    }
+  >
+    <ColumnNB
+      size={2}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 5,
+          }
+        }
+      >
+        receipts
+      </Text>
+    </ColumnNB>
+    <ColumnNB
+      size={10}
+    />
+    <ColumnNB
+      size={1}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3f3f48",
+              "height": 24,
+              "justifyContent": "center",
+              "width": 24,
+            },
+            Object {
+              "backgroundColor": "#53535a",
+              "marginTop": 0,
+            },
+          ]
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="close"
+          size={14}
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={2}
+  >
+    <ColumnNB
+      size={1}
+    >
+      <Hideo
+        animationDuration={200}
+        height={48}
+        iconBackgroundColor="#3f3f48"
+        iconClass={[Function]}
+        iconColor="white"
+        iconName="search"
+        inputStyle={
+          Object {
+            "backgroundColor": "#3f3f48",
+            "color": "white",
+          }
+        }
+        label="Search"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "height": 16,
+          }
+        }
+      />
+    </ColumnNB>
+    <ColumnNB
+      size={1}
+    />
+  </RowNB>
+  <RowNB
+    size={25}
+    style={
+      Object {
+        "paddingRight": 30,
+      }
+    }
+  >
+    <ColumnNB>
+      <SwipeALot
+        circleActiveStyle={
+          Object {
+            "backgroundColor": "#beb3b7",
+          }
+        }
+        circleDefaultStyle={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#beb3b7",
+            "borderRadius": 10,
+            "borderWidth": 1,
+            "height": 8,
+            "margin": 7,
+            "marginTop": 15,
+            "top": -15,
+            "width": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              },
+            ]
+          }
+        >
+          <RowNB>
+            <ColumnNB>
+              <TouchableOpacity
+                activeOpacity={0.2}
+                focusedOpacity={0.7}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#53535a",
+                      "flex": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 10,
+                      "marginLeft": 5,
+                      "marginRight": 5,
+                    },
+                    Object {
+                      "marginLeft": 0,
+                    },
+                  ]
+                }
+              >
+                <ReceiptItem
+                  data={Object {}}
+                  onPress={[Function]}
+                />
+              </TouchableOpacity>
+            </ColumnNB>
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+          <RowNB>
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+          <RowNB>
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+          <RowNB>
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+        </View>
+      </SwipeALot>
+    </ColumnNB>
+  </RowNB>
+  <ReceiptModal
+    getReceipts={[Function]}
+  />
+</GridNB>
+`;
+
+exports[`renders correctly with empty data 1`] = `
+<GridNB
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#3f3f48",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+      },
+      Object {
+        "paddingLeft": 30,
+        "paddingTop": 25,
+      },
+    ]
+  }
+>
+  <RowNB
+    size={1}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "height": 40,
+      }
+    }
+  >
+    <ColumnNB
+      size={2}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "marginTop": 5,
+          }
+        }
+      >
+        receipts
+      </Text>
+    </ColumnNB>
+    <ColumnNB
+      size={10}
+    />
+    <ColumnNB
+      size={1}
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        focusedOpacity={0.7}
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3f3f48",
+              "height": 24,
+              "justifyContent": "center",
+              "width": 24,
+            },
+            Object {
+              "backgroundColor": "#53535a",
+              "marginTop": 0,
+            },
+          ]
+        }
+      >
+        <Icon
+          allowFontScaling={false}
+          color="white"
+          name="close"
+          size={14}
+        />
+      </TouchableOpacity>
+    </ColumnNB>
+  </RowNB>
+  <RowNB
+    size={2}
+  >
+    <ColumnNB
+      size={1}
+    >
+      <Hideo
+        animationDuration={200}
+        height={48}
+        iconBackgroundColor="#3f3f48"
+        iconClass={[Function]}
+        iconColor="white"
+        iconName="search"
+        inputStyle={
+          Object {
+            "backgroundColor": "#3f3f48",
+            "color": "white",
+          }
+        }
+        label="Search"
+        onChangeText={[Function]}
+        style={
+          Object {
+            "height": 16,
+          }
+        }
+      />
+    </ColumnNB>
+    <ColumnNB
+      size={1}
+    />
+  </RowNB>
+  <RowNB
+    size={25}
+    style={
+      Object {
+        "paddingRight": 30,
+      }
+    }
+  >
+    <ColumnNB>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#fff",
+              "fontFamily": "Gotham-Book",
+              "fontSize": 14,
+            }
+          }
+        >
+          No 
+          receipts
+           in current cash shift
+        </Text>
+      </View>
+    </ColumnNB>
+  </RowNB>
+  <ReceiptModal
+    getReceipts={[Function]}
+  />
+</GridNB>
+`;

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.totalUpper",
+    "defaultMessage": "TOTAL"
+  },
+  {
+    "id": "app.paid",
+    "defaultMessage": "Paid"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "app.createCustomer",
+    "defaultMessage": "Create Customer"
+  },
+  {
+    "id": "app.groups",
+    "defaultMessage": "Groups"
+  },
+  {
+    "id": "app.accountType",
+    "defaultMessage": "Account Type"
+  }
+]

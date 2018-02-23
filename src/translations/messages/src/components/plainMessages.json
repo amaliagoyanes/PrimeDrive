@@ -1,0 +1,514 @@
+[
+  {
+    "id": "app.statusInfo",
+    "defaultMessage": "Info"
+  },
+  {
+    "id": "app.fullReceipt",
+    "defaultMessage": "Full receipt"
+  },
+  {
+    "id": "app.parkSplittedReceipt",
+    "defaultMessage": "Park current splitted receipt?"
+  },
+  {
+    "id": "app.splitEqual",
+    "defaultMessage": "Split equal"
+  },
+  {
+    "id": "app.returnSplitted",
+    "defaultMessage": "Return splitted"
+  },
+  {
+    "id": "app.splittedReceipt",
+    "defaultMessage": "Splitted receipt"
+  },
+  {
+    "id": "app.statusError",
+    "defaultMessage": "Error"
+  },
+  {
+    "id": "app.closedReceipts",
+    "defaultMessage": "Closed Receipts"
+  },
+  {
+    "id": "app.parkedReceipts",
+    "defaultMessage": "Parked Receipts"
+  },
+  {
+    "id": "app.emptyReceipt",
+    "defaultMessage": "Receipt is empty."
+  },
+  {
+    "id": "app.alreadyRefunded",
+    "defaultMessage": "This unit has been already refunded!"
+  },
+  {
+    "id": "app.refundInfo",
+    "defaultMessage": "Please select a unit to refund."
+  },
+  {
+    "id": "app.returnInfo",
+    "defaultMessage": "Please select a product to return."
+  },
+  {
+    "id": "app.refundConfirmation",
+    "defaultMessage": "Do you want to refund current receipt?"
+  },
+  {
+    "id": "app.receiptAlreadyRefunded",
+    "defaultMessage": "This receipt is already refunded."
+  },
+  {
+    "id": "app.noClosedReceipts",
+    "defaultMessage": "There are no closed tickets in current cash shift."
+  },
+  {
+    "id": "app.noGroupProducts",
+    "defaultMessage": "There are no products in current product's group."
+  },
+  {
+    "id": "app.notGreaterThan",
+    "defaultMessage": "Value cannot be greater than"
+  },
+  {
+    "id": "app.deleteReceipt",
+    "defaultMessage": "delete current receipt?"
+  },
+  {
+    "id": "app.returnReceipt",
+    "defaultMessage": "return current receipt?"
+  },
+  {
+    "id": "app.returnProduct",
+    "defaultMessage": "return selected product?"
+  },
+  {
+    "id": "app.parkReceipt",
+    "defaultMessage": "park current receipt?"
+  },
+  {
+    "id": "app.park",
+    "defaultMessage": "Park"
+  },
+  {
+    "id": "app.invalidIPAddress",
+    "defaultMessage": "Incorrect address format, please input IP:port"
+  },
+  {
+    "id": "app.punchIn",
+    "defaultMessage": "Punch In"
+  },
+  {
+    "id": "app.punchOut",
+    "defaultMessage": "Punch Out"
+  },
+  {
+    "id": "app.checkedIn",
+    "defaultMessage": "You are currently checked in"
+  },
+  {
+    "id": "app.checkedOut",
+    "defaultMessage": "You are not checked in"
+  },
+  {
+    "id": "app.selectTable",
+    "defaultMessage": "Select table"
+  },
+  {
+    "id": "app.pay",
+    "defaultMessage": "Pay"
+  },
+  {
+    "id": "app.cancelUpper",
+    "defaultMessage": "CANCEL"
+  },
+  {
+    "id": "app.deleteUpper",
+    "defaultMessage": "DELETE"
+  },
+  {
+    "id": "app.okUpper",
+    "defaultMessage": "OK"
+  },
+  {
+    "id": "app.cash",
+    "defaultMessage": "Cash"
+  },
+  {
+    "id": "app.card",
+    "defaultMessage": "Card"
+  },
+  {
+    "id": "app.euro",
+    "defaultMessage": "Euro"
+  },
+  {
+    "id": "app.giftCard",
+    "defaultMessage": "Giftcard"
+  },
+  {
+    "id": "app.noteUpper",
+    "defaultMessage": "NOTE"
+  },
+  {
+    "id": "app.discount",
+    "defaultMessage": "Discount"
+  },
+  {
+    "id": "app.balanceUpper",
+    "defaultMessage": "BALANCE"
+  },
+  {
+    "id": "app.paymentUpper",
+    "defaultMessage": "PAYMENT"
+  },
+  {
+    "id": "app.closeDayUpper",
+    "defaultMessage": "CLOSE THE DAY"
+  },
+  {
+    "id": "app.closeDay",
+    "defaultMessage": "Close Day"
+  },
+  {
+    "id": "app.openDayUpper",
+    "defaultMessage": "OPEN DAY"
+  },
+  {
+    "id": "app.openDay",
+    "defaultMessage": "Open Day"
+  },
+  {
+    "id": "app.terminal",
+    "defaultMessage": "Terminal"
+  },
+  {
+    "id": "app.printer",
+    "defaultMessage": "Printer"
+  },
+  {
+    "id": "app.productionPrinter",
+    "defaultMessage": "Production Printer"
+  },
+  {
+    "id": "app.checkInOut",
+    "defaultMessage": "Check in/out"
+  },
+  {
+    "id": "app.deposition",
+    "defaultMessage": "Deposition"
+  },
+  {
+    "id": "app.stockControl",
+    "defaultMessage": "Stock control"
+  },
+  {
+    "id": "app.statistics",
+    "defaultMessage": "Statistics"
+  },
+  {
+    "id": "app.website",
+    "defaultMessage": "Website"
+  },
+  {
+    "id": "app.tableManagement",
+    "defaultMessage": "Table Management"
+  },
+  {
+    "id": "app.openAmount",
+    "defaultMessage": "Print Open Amount receipt"
+  },
+  {
+    "id": "app.closeAmount",
+    "defaultMessage": "Print Close Amount receipt"
+  },
+  {
+    "id": "app.noUser",
+    "defaultMessage": "Such user doesn't exist"
+  },
+  {
+    "id": "app.welcomeUpper",
+    "defaultMessage": "WELCOME"
+  },
+  {
+    "id": "app.loading",
+    "defaultMessage": "Loading..."
+  },
+  {
+    "id": "app.printing",
+    "defaultMessage": "Printing..."
+  },
+  {
+    "id": "app.retrieving",
+    "defaultMessage": "Retrieving last tickets data..."
+  },
+  {
+    "id": "app.currentTimeUpper",
+    "defaultMessage": "CURRENT LOGGED TIME"
+  },
+  {
+    "id": "app.changeTableName",
+    "defaultMessage": "Change table name to:"
+  },
+  {
+    "id": "app.product",
+    "defaultMessage": "Product"
+  },
+  {
+    "id": "app.unit",
+    "defaultMessage": "unit"
+  },
+  {
+    "id": "app.units",
+    "defaultMessage": "units"
+  },
+  {
+    "id": "app.totalPrice",
+    "defaultMessage": "Total Price"
+  },
+  {
+    "id": "app.total",
+    "defaultMessage": "Total"
+  },
+  {
+    "id": "app.description",
+    "defaultMessage": "Description"
+  },
+  {
+    "id": "app.lineContains",
+    "defaultMessage": "This ticket line contains"
+  },
+  {
+    "id": "app.amountToRefund",
+    "defaultMessage": "Select amount of units to refund:"
+  },
+  {
+    "id": "app.return",
+    "defaultMessage": "Return"
+  },
+  {
+    "id": "app.print",
+    "defaultMessage": "Print"
+  },
+  {
+    "id": "app.change",
+    "defaultMessage": "Change:"
+  },
+  {
+    "id": "app.notLoggedIn",
+    "defaultMessage": "You should be logged into system in order to proceed"
+  },
+  {
+    "id": "app.selectTableUpper",
+    "defaultMessage": "SELECT TABLE"
+  },
+  {
+    "id": "app.emptyName",
+    "defaultMessage": "Name cannot be empty"
+  },
+  {
+    "id": "app.emptyNumber",
+    "defaultMessage": "Number cannot be empty"
+  },
+  {
+    "id": "app.ticketNumber",
+    "defaultMessage": "Current number"
+  },
+  {
+    "id": "app.ticketTable",
+    "defaultMessage": "Current table"
+  },
+  {
+    "id": "app.setTicketNumber",
+    "defaultMessage": "Set receipt's number"
+  },
+  {
+    "id": "app.setTicketTable",
+    "defaultMessage": "Set receipt's name/table"
+  },
+  {
+    "id": "app.changeTicketNumber",
+    "defaultMessage": "Change receipt's number to:"
+  },
+  {
+    "id": "app.changeTicketTable",
+    "defaultMessage": "Change receipt's table name/number to:"
+  },
+  {
+    "id": "app.currentPortName",
+    "defaultMessage": "Current port name:"
+  },
+  {
+    "id": "app.changePortName",
+    "defaultMessage": "Set port name manually"
+  },
+  {
+    "id": "app.searchPrinter",
+    "defaultMessage": "Search for closest printer"
+  },
+  {
+    "id": "app.terminalStatus",
+    "defaultMessage": "Current terminal status:"
+  },
+  {
+    "id": "app.terminalAddress",
+    "defaultMessage": "Current terminal address:"
+  },
+  {
+    "id": "app.connected",
+    "defaultMessage": "Connected"
+  },
+  {
+    "id": "app.disconnected",
+    "defaultMessage": "Disconnected"
+  },
+  {
+    "id": "app.connect",
+    "defaultMessage": "Connect"
+  },
+  {
+    "id": "app.disconnect",
+    "defaultMessage": "Disconnect"
+  },
+  {
+    "id": "app.changeTerminal",
+    "defaultMessage": "Change terminal address"
+  },
+  {
+    "id": "app.terminalCommands",
+    "defaultMessage": "Terminal commands"
+  },
+  {
+    "id": "app.notConnected",
+    "defaultMessage": "Please connect to terminal in order to proceed"
+  },
+  {
+    "id": "app.initializing",
+    "defaultMessage": "Initializing..."
+  },
+  {
+    "id": "app.connecting",
+    "defaultMessage": "Connecting..."
+  },
+  {
+    "id": "app.missingPermissions",
+    "defaultMessage": "You don't have permission"
+  },
+  {
+    "id": "app.currentPrinterAddress",
+    "defaultMessage": "Current printer address:"
+  },
+  {
+    "id": "app.currentPrinterStatus",
+    "defaultMessage": "Current printer status:"
+  },
+  {
+    "id": "app.useAsLocalPrinter",
+    "defaultMessage": "Use as local printer"
+  },
+  {
+    "id": "app.useAsUSBPrinter",
+    "defaultMessage": "Printer connected by USB"
+  },
+  {
+    "id": "app.changePrinterAddress",
+    "defaultMessage": "Set printer address"
+  },
+  {
+    "id": "app.useEpsonPrinter",
+    "defaultMessage": "Use Epson printer"
+  },
+  {
+    "id": "app.useStarIOPrinter",
+    "defaultMessage": "Use StarMicronics printer"
+  },
+  {
+    "id": "app.wristband",
+    "defaultMessage": "Wristband"
+  },
+  {
+    "id": "app.mini_wristband",
+    "defaultMessage": "Mini Wristband"
+  },
+  {
+    "id": "app.coupon",
+    "defaultMessage": "Coupon"
+  },
+  {
+    "id": "app.gift_card",
+    "defaultMessage": "Gift Card"
+  },
+  {
+    "id": "app.scanned",
+    "defaultMessage": "Scanned"
+  },
+  {
+    "id": "app.scanning",
+    "defaultMessage": "Scanning"
+  },
+  {
+    "id": "app.waiting",
+    "defaultMessage": "Waiting"
+  },
+  {
+    "id": "app.noScans",
+    "defaultMessage": "Receipt doesn't contain any scans"
+  },
+  {
+    "id": "app.of",
+    "defaultMessage": "of"
+  },
+  {
+    "id": "app.clear_scanning",
+    "defaultMessage": "Clear Scanning"
+  },
+  {
+    "id": "app.scan_card_wristband",
+    "defaultMessage": "Scan Card / Wristband"
+  },
+  {
+    "id": "app.all",
+    "defaultMessage": "All"
+  },
+  {
+    "id": "app.tag_uid",
+    "defaultMessage": "Tag UID"
+  },
+  {
+    "id": "app.type",
+    "defaultMessage": "Type"
+  },
+  {
+    "id": "app.addTag",
+    "defaultMessage": "Add new tag"
+  },
+  {
+    "id": "app.moveUnit",
+    "defaultMessage": "Move unit"
+  },
+  {
+    "id": "app.moveLine",
+    "defaultMessage": "Move line"
+  },
+  {
+    "id": "app.splitUnit",
+    "defaultMessage": "Split unit"
+  },
+  {
+    "id": "app.returnUnit",
+    "defaultMessage": "Return unit"
+  },
+  {
+    "id": "app.returnLine",
+    "defaultMessage": "Return line"
+  },
+  {
+    "id": "app.approved",
+    "defaultMessage": "APPROVED"
+  },
+  {
+    "id": "app.declined",
+    "defaultMessage": "DECLINED"
+  }
+]

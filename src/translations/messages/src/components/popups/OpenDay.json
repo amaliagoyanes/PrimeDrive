@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.openAmount",
+    "defaultMessage": "Print Open Amount receipt"
+  },
+  {
+    "id": "app.missingCashShiftButton",
+    "defaultMessage": "Select Cash Shift button first"
+  }
+]

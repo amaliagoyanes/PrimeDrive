@@ -1,0 +1,10 @@
+[
+  {
+    "id": "app.lineContains",
+    "defaultMessage": "This ticket line contains"
+  },
+  {
+    "id": "app.amountToRefund",
+    "defaultMessage": "Select amount of units to refund:"
+  }
+]

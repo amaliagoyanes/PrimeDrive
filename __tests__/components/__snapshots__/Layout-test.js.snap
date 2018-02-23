@@ -1,0 +1,476 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <withAnimation(ProgressCircle)
+      animated={true}
+      borderColor="#2dab61"
+      borderWidth={5}
+      indeterminate={true}
+      progress={0}
+      size={60}
+    />
+  </View>
+</View>
+`;
+
+exports[`renders correctly with state (open day) and layouts name 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <RowNB>
+    <ColumnNB
+      size={6}
+    >
+      <RowNB
+        size={1}
+      >
+        <SwipeALot
+          circleActiveStyle={
+            Object {
+              "backgroundColor": "#beb3b7",
+            }
+          }
+          circleDefaultStyle={
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#beb3b7",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "height": 8,
+              "margin": 7,
+              "marginTop": 3,
+              "top": -2,
+              "width": 8,
+            }
+          }
+        >
+          <RowNB
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <ButtonItem
+              active={false}
+              onPress={[Function]}
+              text="page_1"
+            />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+        </SwipeALot>
+      </RowNB>
+      <RowNB
+        size={5}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#fff",
+                "fontFamily": "Gotham-Book",
+                "fontSize": 14,
+              }
+            }
+          >
+            Please open the day first
+          </Text>
+        </View>
+      </RowNB>
+    </ColumnNB>
+    <ColumnNB
+      size={4}
+    >
+      <TicketBlock
+        clearDataSource={[Function]}
+        closeTicket={[Function]}
+        dataSource={Array []}
+        deleteItem={[Function]}
+        deleteTicket={[Function]}
+        number={0}
+        onOk={[Function]}
+        onPress={[Function]}
+        parkTicket={[Function]}
+        reduceDataSource={[Function]}
+        saveTicketDiscount={[Function]}
+        selectTable={[Function]}
+        selectedTable={null}
+        ticketData={Object {}}
+        timestamp={1483228800}
+        userData={null}
+      />
+    </ColumnNB>
+    <NumberPopup
+      arrow="left"
+      deleteAll={true}
+      onOk={[Function]}
+      postfix="X"
+      readOnly={true}
+      showDelimeter={true}
+    />
+  </RowNB>
+</View>
+`;
+
+exports[`renders correctly with state (open day), layouts name and cash shift id 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <RowNB>
+    <ColumnNB
+      size={6}
+    >
+      <RowNB
+        size={1}
+      >
+        <SwipeALot
+          circleActiveStyle={
+            Object {
+              "backgroundColor": "#beb3b7",
+            }
+          }
+          circleDefaultStyle={
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#beb3b7",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "height": 8,
+              "margin": 7,
+              "marginTop": 3,
+              "top": -2,
+              "width": 8,
+            }
+          }
+        >
+          <RowNB
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <ButtonItem
+              active={false}
+              onPress={[Function]}
+              text="page_1"
+            />
+            <ColumnNB />
+            <ColumnNB />
+          </RowNB>
+        </SwipeALot>
+      </RowNB>
+      <RowNB
+        size={5}
+      >
+        <SwipeALot
+          circleActiveStyle={
+            Object {
+              "backgroundColor": "#beb3b7",
+            }
+          }
+          circleDefaultStyle={
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#beb3b7",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "height": 8,
+              "margin": 7,
+              "marginTop": 3,
+              "top": -2,
+              "width": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+                "marginBottom": 15,
+              }
+            }
+          >
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+            <RowNB>
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+              <ColumnNB />
+            </RowNB>
+          </View>
+        </SwipeALot>
+      </RowNB>
+    </ColumnNB>
+    <ColumnNB
+      size={4}
+    >
+      <TicketBlock
+        cash_shift_id={1}
+        clearDataSource={[Function]}
+        closeTicket={[Function]}
+        dataSource={Array []}
+        deleteItem={[Function]}
+        deleteTicket={[Function]}
+        number={0}
+        onOk={[Function]}
+        onPress={[Function]}
+        parkTicket={[Function]}
+        reduceDataSource={[Function]}
+        saveTicketDiscount={[Function]}
+        selectTable={[Function]}
+        selectedTable={null}
+        ticketData={Object {}}
+        timestamp={1483228800}
+        userData={null}
+      />
+    </ColumnNB>
+    <NumberPopup
+      arrow="left"
+      deleteAll={true}
+      onOk={[Function]}
+      postfix="X"
+      readOnly={true}
+      showDelimeter={true}
+    />
+  </RowNB>
+</View>
+`;
+
+exports[`renders correctly with state 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <withAnimation(ProgressCircle)
+      animated={true}
+      borderColor="#2dab61"
+      borderWidth={5}
+      indeterminate={true}
+      progress={0}
+      size={60}
+    />
+  </View>
+</View>
+`;

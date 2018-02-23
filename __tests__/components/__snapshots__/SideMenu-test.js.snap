@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Modal
+  onRequestClose={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.2)",
+      "bottom": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+    }
+  }
+  visible={true}
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    focusedOpacity={0.7}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.2)",
+          "bottom": 0,
+          "left": 0,
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+        },
+      ]
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={1}
+      focusedOpacity={0.7}
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#404048",
+          "bottom": 0,
+          "top": 0,
+          "width": 250,
+        }
+      }
+    >
+      <RowNB
+        size={1}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "height": 40,
+            "marginTop": 30,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+          }
+        }
+      >
+        <ColumnNB
+          size={2}
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "white",
+                "marginTop": 5,
+              }
+            }
+          >
+            Menu
+          </Text>
+        </ColumnNB>
+        <ColumnNB
+          size={10}
+        />
+        <ColumnNB
+          size={1}
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            focusedOpacity={0.7}
+            onPress={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#3f3f48",
+                  "height": 24,
+                  "justifyContent": "center",
+                  "width": 24,
+                },
+                Object {
+                  "backgroundColor": "#53535a",
+                  "marginTop": 0,
+                },
+              ]
+            }
+          >
+            <Icon
+              allowFontScaling={false}
+              color="white"
+              name="close"
+              size={14}
+            />
+          </TouchableOpacity>
+        </ColumnNB>
+      </RowNB>
+      <RowNB
+        size={7}
+      >
+        <SwipeALot
+          circleActiveStyle={
+            Object {
+              "backgroundColor": "#beb3b7",
+            }
+          }
+          circleDefaultStyle={
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#beb3b7",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "height": 8,
+              "margin": 7,
+              "marginTop": 3,
+              "top": -2,
+              "width": 8,
+            }
+          }
+        >
+          <ColumnNB
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 15,
+                },
+                Object {
+                  "marginTop": 0,
+                },
+              ]
+            }
+          >
+            <RowNB>
+              <IconButton
+                icon="printer"
+                onPress={[Function]}
+                price="Terminal"
+              />
+              <IconButton
+                icon="check-circle-outline"
+                onPress={[Function]}
+                price="Check in/out"
+              />
+              <IconButton
+                icon="close-circle-outline"
+                onPress={[Function]}
+                price="Closed Receipts"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="pause"
+                onPress={[Function]}
+                price="Parked Receipts"
+              />
+              <IconButton
+                icon="cash-multiple"
+                price="Deposition"
+              />
+              <IconButton
+                icon="package-variant-closed"
+                price="Stock control"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="chart-line"
+                price="Statistics"
+              />
+              <IconButton
+                icon="calendar-clock"
+                onPress={[Function]}
+                price="Open day"
+              />
+              <IconButton
+                icon="calendar-remove"
+                onPress={[Function]}
+                price="Close day"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="web"
+                price="Website"
+              />
+              <IconButton
+                icon="food-fork-drink"
+                onPress={[Function]}
+                price="Table management"
+              />
+              <ColumnNB />
+            </RowNB>
+            <RowNB
+              size={2}
+            />
+          </ColumnNB>
+          <ColumnNB
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 15,
+                },
+                Object {
+                  "marginTop": 0,
+                },
+              ]
+            }
+          >
+            <RowNB>
+              <IconButton
+                icon="printer"
+                onPress={[Function]}
+                price="Terminal"
+              />
+              <IconButton
+                icon="check-circle-outline"
+                onPress={[Function]}
+                price="Check in/out"
+              />
+              <IconButton
+                icon="close-circle-outline"
+                onPress={[Function]}
+                price="Closed Receipts"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="pause"
+                onPress={[Function]}
+                price="Parked Receipts"
+              />
+              <IconButton
+                icon="cash-multiple"
+                price="Deposition"
+              />
+              <IconButton
+                icon="package-variant-closed"
+                price="Stock control"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="chart-line"
+                price="Statistics"
+              />
+              <IconButton
+                icon="calendar-clock"
+                onPress={[Function]}
+                price="Open day"
+              />
+              <IconButton
+                icon="calendar-remove"
+                onPress={[Function]}
+                price="Close day"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="web"
+                price="Website"
+              />
+              <IconButton
+                icon="food-fork-drink"
+                onPress={[Function]}
+                price="Table management"
+              />
+              <ColumnNB />
+            </RowNB>
+            <RowNB
+              size={2}
+            />
+          </ColumnNB>
+          <ColumnNB
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "marginBottom": 15,
+                },
+                Object {
+                  "marginTop": 0,
+                },
+              ]
+            }
+          >
+            <RowNB>
+              <IconButton
+                icon="printer"
+                onPress={[Function]}
+                price="Terminal"
+              />
+              <IconButton
+                icon="check-circle-outline"
+                onPress={[Function]}
+                price="Check in/out"
+              />
+              <IconButton
+                icon="close-circle-outline"
+                onPress={[Function]}
+                price="Closed Receipts"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="pause"
+                onPress={[Function]}
+                price="Parked Receipts"
+              />
+              <IconButton
+                icon="cash-multiple"
+                price="Deposition"
+              />
+              <IconButton
+                icon="package-variant-closed"
+                price="Stock control"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="chart-line"
+                price="Statistics"
+              />
+              <IconButton
+                icon="calendar-clock"
+                onPress={[Function]}
+                price="Open day"
+              />
+              <IconButton
+                icon="calendar-remove"
+                onPress={[Function]}
+                price="Close day"
+              />
+            </RowNB>
+            <RowNB>
+              <IconButton
+                icon="web"
+                price="Website"
+              />
+              <IconButton
+                icon="food-fork-drink"
+                onPress={[Function]}
+                price="Table management"
+              />
+              <ColumnNB />
+            </RowNB>
+            <RowNB
+              size={2}
+            />
+          </ColumnNB>
+        </SwipeALot>
+      </RowNB>
+      <RowNB
+        size={0.5}
+      />
+    </TouchableOpacity>
+  </TouchableOpacity>
+</Modal>
+`;
